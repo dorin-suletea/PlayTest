@@ -19,8 +19,7 @@ In order to run this you need java installed only (any version above 1.6.0.45)
 * localhost:9000/survey?id=                   | get the survey, survey ID can be extracted from metadata or metadataByTopic requests
 </pre>
 
-### To run the service locally (distro included) :
-<code><pre>
+### To run the service locally (distro included) : <code><pre>
 cd CLID/dist
 unzip clid-1.0-SNAPSHOT.zip 
 cd clid-1.0-SNAPSHOT
