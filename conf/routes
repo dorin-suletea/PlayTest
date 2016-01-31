@@ -1,0 +1,15 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET     /                           controllers.Application.index()
+GET     /metadata                   controllers.Application.fetchMetadata()
+GET     /metadataByTopic            controllers.Application.fetchMetadataByTopic(topic:String)
+GET     /count                      controllers.Application.fetchCount()
+GET     /survey                     controllers.Application.getSurvey(id:String)
+
+
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.at(path="/public", file)
